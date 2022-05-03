@@ -20,7 +20,7 @@ class CreateProductsYable extends Migration
             $table->string('marca',10);
             $table->string('size',20);
             $table->string('type',20);
-            $table->int('inventario',5);
+            $table->double('inventario',5);
             $table->string('sku',20);
             $table->timestamps();
         });
